@@ -1,0 +1,63 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* General Style */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  text-transform: capitalize;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+
+/* sidebar style */
+.sidebar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}

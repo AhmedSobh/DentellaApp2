@@ -1,0 +1,67 @@
+.post-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .post-page h1{
+    color: #1B75BC;
+    font-weight: 800;
+  }
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 33%;
+    }  
+  .post-card {
+    margin-top: 2%;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+
+  .post-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .post-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0px 0 0 100px;
+  }
+  
+  .post-card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    max-width: fit-content;
+  }
+  .post-card .doctor-image{
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+  }
+  .post-card .doctor-name{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+  }

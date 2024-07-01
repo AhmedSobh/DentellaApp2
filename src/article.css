@@ -1,0 +1,65 @@
+.article-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .article-page h1{
+    color: #1B75BC;
+    font-weight: 800;
+  }
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 33%    ;
+    }  
+  .article-card {
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+
+  .article-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .article-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .article-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  .article-card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    max-width: fit-content;
+  }
+  .article-card .doctor-image{
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+  }
+  .article-card .doctor-name{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+  }
